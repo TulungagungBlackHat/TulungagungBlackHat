@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0000&height=200&section=header&text=TULUNGAGUNG%20BLACK%20HAT&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Ethical%20Hacking%20%7C%20Cyber%20Security%20%7C%20Programming&descAlignY=55&descAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0000&height=200&section=header&text=TULUNGAGUNG%20BLACK%20HAT&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=v2.0%20Pro%20%7C%20JSON%2FHTML%20%7C%20All%20Tools%20Pro&descAlignY=55&descAlign=50" />
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=Always+Smile+%3A%29;We+Are+From+Tulungagung%2C+Jawa+Timur;Ethical+Hacking+%26+Cyber+Security+Community" alt="Typing SVG" />
@@ -6,6 +6,8 @@
 
 <p align="center">
   <a href="https://tulungagungblackhat.github.io"><img src="https://img.shields.io/badge/Portfolio-tulungagungblackhat.github.io-FF0000?style=for-the-badge&logo=github&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/Version-v2.0%20Pro-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Tools-5%20Pro-green?style=for-the-badge">
   <a href="https://github.com/TulungagungBlackHat?tab=followers"><img src="https://img.shields.io/github/followers/TulungagungBlackHat?label=Followers&style=for-the-badge&color=black"></a>
   <img src="https://img.shields.io/badge/Location-Tulungagung%2C%20Indonesia-red?style=for-the-badge">
 </p>
