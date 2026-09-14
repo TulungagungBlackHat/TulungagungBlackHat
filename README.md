@@ -52,6 +52,7 @@
 | [**TBH-BugBounty**](https://github.com/TulungagungBlackHat/TBH-BugBounty) | 🎯 Bug Bounty Hunter Toolkit | Python |
 | [**TBH-SubFinder**](https://github.com/TulungagungBlackHat/TBH-SubFinder) | 🔍 Bug Bounty Subdomain Finder | Python |
 | [**TBH-DirFinder**](https://github.com/TulungagungBlackHat/TBH-DirFinder) | 📁 Bug Bounty Dir Finder | Python |
+| [**TBH-ParamFinder**](https://github.com/TulungagungBlackHat/TBH-ParamFinder) | 🔍 Hidden Parameter Finder | Python |
 
 ---
 
