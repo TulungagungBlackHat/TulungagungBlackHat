@@ -45,6 +45,7 @@
 | [**darkfb**](https://github.com/TulungagungBlackHat/darkfb) | Facebook Security Testing (Educational) | Python |
 | [**TBH-PassStrength**](https://github.com/TulungagungBlackHat/TBH-PassStrength) | 🔐 Password Strength Checker | Python |
 | [**awesome-tulungagung**](https://github.com/TulungagungBlackHat/awesome-tulungagung) | 🇮🇩 Curated Resources Indonesia | Markdown |
+| [**TBH-CTF**](https://github.com/TulungagungBlackHat/TBH-CTF) | 🎮 Mini CTF 3 Challenge | Markdown |
 
 ---
 
