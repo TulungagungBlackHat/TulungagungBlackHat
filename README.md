@@ -61,6 +61,7 @@
 | [**TBH-LFI**](https://github.com/TulungagungBlackHat/TBH-LFI) | 📂 LFI Detector | Python |
 | [**TBH-SQLi**](https://github.com/TulungagungBlackHat/TBH-SQLi) | 💉 SQLi Detector | Python |
 | [**TBH-IDOR**](https://github.com/TulungagungBlackHat/TBH-IDOR) | 🔓 IDOR Detector | Python |
+| [**TBH-AllScan**](https://github.com/TulungagungBlackHat/TBH-AllScan) | 🎯 All-in-One Bug Bounty (10 tools) | Python |
 
 ---
 
