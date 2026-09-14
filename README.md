@@ -39,6 +39,7 @@
 |---------|-----------|----------|
 | [**4N4M_ddos**](https://github.com/TulungagungBlackHat/4N4M_ddos) | Tools DDOS untuk edukasi & stress testing server sendiri | Python |
 | [**darkfb**](https://github.com/TulungagungBlackHat/darkfb) | Tools edukasi Facebook Security & Bruteforce Testing | Python |
+| [**TBH-Recon**](https://github.com/TulungagungBlackHat/TBH-Recon) | 🔍 Web Recon untuk Bug Bounty - Header, Port, Subdomain | Python |
 | [**DEFACE**](https://github.com/TulungagungBlackHat/DEFACE) | Metode Deface untuk edukasi Web Security | HTML |
 
 ---
