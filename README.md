@@ -49,6 +49,7 @@
 | [**awesome-tulungagung**](https://github.com/TulungagungBlackHat/awesome-tulungagung) | 🇮🇩 Curated Resources Indonesia | Markdown |
 | [**TBH-CTF**](https://github.com/TulungagungBlackHat/TBH-CTF) | 🎮 Mini CTF 3 Challenge | Markdown |
 | [**TBH-Utils**](https://github.com/TulungagungBlackHat/TBH-Utils) | 🧰 Berguna Untuk Semua Orang | Python |
+| [**TBH-BugBounty**](https://github.com/TulungagungBlackHat/TBH-BugBounty) | 🎯 Bug Bounty Hunter Toolkit | Python |
 
 ---
 
