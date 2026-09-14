@@ -51,6 +51,7 @@
 | [**TBH-Utils**](https://github.com/TulungagungBlackHat/TBH-Utils) | 🧰 Berguna Untuk Semua Orang | Python |
 | [**TBH-BugBounty**](https://github.com/TulungagungBlackHat/TBH-BugBounty) | 🎯 Bug Bounty Hunter Toolkit | Python |
 | [**TBH-SubFinder**](https://github.com/TulungagungBlackHat/TBH-SubFinder) | 🔍 Bug Bounty Subdomain Finder | Python |
+| [**TBH-DirFinder**](https://github.com/TulungagungBlackHat/TBH-DirFinder) | 📁 Bug Bounty Dir Finder | Python |
 
 ---
 
