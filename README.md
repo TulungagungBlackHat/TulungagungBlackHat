@@ -37,6 +37,7 @@
 
 | Project | Deskripsi | Language |
 |---------|-----------|----------|
+| [**TBH-Toolkit**](https://github.com/TulungagungBlackHat/TBH-Toolkit) | 🧰 All-in-One Installer (1-Click) | Bash |
 | [**TBH-Recon**](https://github.com/TulungagungBlackHat/TBH-Recon) | 🔍 Web Recon untuk Bug Bounty | Python |
 | [**TBH-PhishDetector**](https://github.com/TulungagungBlackHat/TBH-PhishDetector) | 🛡️ Phishing URL Detector 9 Heuristik | Python |
 | [**TBH-PortScanner**](https://github.com/TulungagungBlackHat/TBH-PortScanner) | ⚡ Fast Port Scanner + CVE Hints | Python |
