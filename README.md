@@ -57,6 +57,7 @@
 | [**TBH-XSS**](https://github.com/TulungagungBlackHat/TBH-XSS) | 💉 XSS Detector | Python |
 | [**TBH-OpenRedirect**](https://github.com/TulungagungBlackHat/TBH-OpenRedirect) | 🔀 OpenRedirect Detector | Python |
 | [**TBH-CORS**](https://github.com/TulungagungBlackHat/TBH-CORS) | 🌐 CORS Misconfig Detector | Python |
+| [**TBH-SSRF**](https://github.com/TulungagungBlackHat/TBH-SSRF) | 🔥 SSRF Detector | Python |
 
 ---
 
