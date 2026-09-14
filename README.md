@@ -55,6 +55,7 @@
 | [**TBH-ParamFinder**](https://github.com/TulungagungBlackHat/TBH-ParamFinder) | 🔍 Hidden Parameter Finder | Python |
 | [**TBH-JSLeak**](https://github.com/TulungagungBlackHat/TBH-JSLeak) | 🔑 Find Secrets in JS | Python |
 | [**TBH-XSS**](https://github.com/TulungagungBlackHat/TBH-XSS) | 💉 XSS Detector | Python |
+| [**TBH-OpenRedirect**](https://github.com/TulungagungBlackHat/TBH-OpenRedirect) | 🔀 OpenRedirect Detector | Python |
 
 ---
 
