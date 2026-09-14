@@ -42,6 +42,8 @@
 | [**TBH-PortScanner**](https://github.com/TulungagungBlackHat/TBH-PortScanner) | ⚡ Fast Port Scanner + CVE Hints | Python |
 | [**uchil404-ddos**](https://github.com/TulungagungBlackHat/uchil404-ddos) | Stress Testing Tool (Educational) | Python |
 | [**darkfb**](https://github.com/TulungagungBlackHat/darkfb) | Facebook Security Testing (Educational) | Python |
+| [**TBH-PassStrength**](https://github.com/TulungagungBlackHat/TBH-PassStrength) | 🔐 Password Strength Checker | Python |
+| [**awesome-tulungagung**](https://github.com/TulungagungBlackHat/awesome-tulungagung) | 🇮🇩 Curated Resources Indonesia | Markdown |
 
 ---
 
