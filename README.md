@@ -54,6 +54,7 @@
 | [**TBH-DirFinder**](https://github.com/TulungagungBlackHat/TBH-DirFinder) | 📁 Bug Bounty Dir Finder | Python |
 | [**TBH-ParamFinder**](https://github.com/TulungagungBlackHat/TBH-ParamFinder) | 🔍 Hidden Parameter Finder | Python |
 | [**TBH-JSLeak**](https://github.com/TulungagungBlackHat/TBH-JSLeak) | 🔑 Find Secrets in JS | Python |
+| [**TBH-XSS**](https://github.com/TulungagungBlackHat/TBH-XSS) | 💉 XSS Detector | Python |
 
 ---
 
