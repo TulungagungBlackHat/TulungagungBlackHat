@@ -60,6 +60,7 @@
 | [**TBH-SSRF**](https://github.com/TulungagungBlackHat/TBH-SSRF) | 🔥 SSRF Detector | Python |
 | [**TBH-LFI**](https://github.com/TulungagungBlackHat/TBH-LFI) | 📂 LFI Detector | Python |
 | [**TBH-SQLi**](https://github.com/TulungagungBlackHat/TBH-SQLi) | 💉 SQLi Detector | Python |
+| [**TBH-IDOR**](https://github.com/TulungagungBlackHat/TBH-IDOR) | 🔓 IDOR Detector | Python |
 
 ---
 
