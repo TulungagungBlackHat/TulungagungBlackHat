@@ -37,10 +37,11 @@
 
 | Project | Deskripsi | Language |
 |---------|-----------|----------|
-| [**uchil404-ddos**](https://github.com/TulungagungBlackHat/uchil404-ddos) | Tools DDOS untuk edukasi & stress testing server sendiri | Python |
-| [**darkfb**](https://github.com/TulungagungBlackHat/darkfb) | Tools edukasi Facebook Security & Bruteforce Testing | Python |
-| [**TBH-Recon**](https://github.com/TulungagungBlackHat/TBH-Recon) | 🔍 Web Recon untuk Bug Bounty - Header, Port, Subdomain | Python |
-| [**DEFACE**](https://github.com/TulungagungBlackHat/DEFACE) | Metode Deface untuk edukasi Web Security | HTML |
+| [**TBH-Recon**](https://github.com/TulungagungBlackHat/TBH-Recon) | 🔍 Web Recon untuk Bug Bounty | Python |
+| [**TBH-PhishDetector**](https://github.com/TulungagungBlackHat/TBH-PhishDetector) | 🛡️ Phishing URL Detector 9 Heuristik | Python |
+| [**TBH-PortScanner**](https://github.com/TulungagungBlackHat/TBH-PortScanner) | ⚡ Fast Port Scanner + CVE Hints | Python |
+| [**uchil404-ddos**](https://github.com/TulungagungBlackHat/uchil404-ddos) | Stress Testing Tool (Educational) | Python |
+| [**darkfb**](https://github.com/TulungagungBlackHat/darkfb) | Facebook Security Testing (Educational) | Python |
 
 ---
 
