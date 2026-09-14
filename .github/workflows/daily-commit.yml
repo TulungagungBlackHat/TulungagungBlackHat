@@ -1,0 +1,26 @@
+name: Daily Green Commit
+on:
+  schedule:
+    - cron: '0 0 * * *'  # tiap hari jam 07:00 WIB
+  workflow_dispatch:
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update daily log
+        run: |
+          date=$(date -u +"%Y-%m-%d %H:%M UTC")
+          echo "Last update: $date - Always Smile :) - Tulungagung Black Hat" > DAILY.md
+          echo "" >> DAILY.md
+          echo "Auto-commit to keep contribution graph green 🌱" >> DAILY.md
+      - name: Commit
+        run: |
+          git config user.name "TulungagungBlackHat"
+          git config user.email "tulungagungblackhat@users.noreply.github.com"
+          git add DAILY.md
+          git commit -m "chore: daily auto-update $(date -u +%Y-%m-%d)" || exit 0
+          git push
