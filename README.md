@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/channel/UCZafyhwr-38rDM5rBlgl4Og"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+  <a href="https://tulungagungblackhat.github.io"><img src="https://img.shields.io/badge/Portfolio-tulungagungblackhat.github.io-FF0000?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://github.com/TulungagungBlackHat?tab=followers"><img src="https://img.shields.io/github/followers/TulungagungBlackHat?label=Followers&style=for-the-badge&color=black"></a>
   <img src="https://img.shields.io/badge/Location-Tulungagung%2C%20Indonesia-red?style=for-the-badge">
 </p>
