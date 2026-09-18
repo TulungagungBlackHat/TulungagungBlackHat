@@ -67,6 +67,27 @@
 ---
 
 
+---
+
+### 🗺️ Ecosystem (v3 — 2026-09)
+
+**Philosophy:** standalone single-file tools (Termux-friendly, `requests` + stdlib only)
+plus one unified integration layer. Repositories stay separate by design — no monorepo,
+no god-library.
+
+| Layer | Repositories | Status |
+|---|---|---|
+| Unified toolkit | [**TBH-Toolkit**](https://github.com/TulungagungBlackHat/TBH-Toolkit) — `toolkit` CLI (14 commands), safety allowlist, reporting, 85% test coverage | ACTIVE |
+| Recon | TBH-Recon, TBH-SubFinder, TBH-ParamFinder, TBH-DirFinder, TBH-JSLeak | ACTIVE |
+| Web detectors (safe probes) | TBH-XSS, TBH-SQLi, TBH-LFI, TBH-SSRF, TBH-SSTI, TBH-OpenRedirect, TBH-IDOR, TBH-CORS | ACTIVE |
+| Aggregators | TBH-AllScan, TBH-BugBounty, TBH-CLI | ACTIVE |
+| Network / defensive | TBH-PortScanner, TBH-PhishDetector, TBH-PassStrength, TBH-Utils | ACTIVE |
+| Learning | TBH-CTF, awesome-tulungagung, tulungagungblackhat.github.io | MAINTENANCE |
+| Legacy (history only) | darkfb, uchil404-ddos, DEFACE (archived) — unsafe capabilities intentionally not preserved; safe equivalents live in TBH-Toolkit | LEGACY |
+
+**Standards (all ACTIVE repos):** `SECURITY.md` + `CONTRIBUTING.md` + `CHANGELOG.md` + `requirements.txt` + CI smoke (`py_compile` + `--help`).
+**Policy:** authorized targets only (`127.0.0.1`, RFC1918 lab nets, `example.*`, or explicit written permission).
+
 ### ⭐ Star History
 
 [![Star History](https://api.star-history.com/svg?repos=TulungagungBlackHat/TBH-Recon,TulungagungBlackHat/TBH-PhishDetector,TulungagungBlackHat/TBH-PortScanner&type=Date)](https://star-history.com/#TulungagungBlackHat/TBH-Recon&TulungagungBlackHat/TBH-PhishDetector&TulungagungBlackHat/TBH-PortScanner&Date)
