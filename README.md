@@ -110,6 +110,7 @@ Safe replacements for anything above live in [TBH-Toolkit](https://github.com/Tu
 - **CI:** smoke tests (`py_compile` + `--help`) on every ACTIVE repo
 - **Docs:** `SECURITY.md` + `CONTRIBUTING.md` + `CHANGELOG.md` in every ACTIVE repo
 - **Dependencies:** `requests` + standard library only — runs on a stock Termux install
+- **TBH v3 CLI:** shared flags (`--proxy`, `--cookie`, `-H`, `--timeout`, `--json`, `--version`, `--no-color`) and pipeline exit codes (`0` clean / `1` finding / `2` error) across tools; detectors baseline the request first to cut false positives
 - **Targets:** `127.0.0.1`, RFC1918 lab networks, `example.*` domains, or hosts with explicit written permission
 
 Found a bug in one of our tools? Open a [security advisory](https://github.com/TulungagungBlackHat/TBH-Recon/security/advisories/new) — not a public issue.
