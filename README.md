@@ -20,7 +20,7 @@
 
 Every ACTIVE repository ships with `SECURITY.md`, `CONTRIBUTING.md`, `CHANGELOG.md`, `requirements.txt`, and a CI smoke test. No black boxes, no "trust me bro" scripts.
 
-> **Authorization policy:** these tools are for education and for testing systems you own or are explicitly authorized to test. Unauthorized access is abuse, not hacking. See [SECURITY.md](https://github.com/TulungagungBlackHat/TBH-Recon/blob/main/SECURITY.md).
+> **Authorization policy:** these tools are for education and for testing systems you own or are explicitly authorized to test. Unauthorized access is abuse, not hacking. See [SECURITY.md](https://github.com/TulungagungBlackHat/TBH-Toolkit/blob/main/SECURITY.md).
 
 ---
 
@@ -32,57 +32,49 @@ Install the full toolset in one line (Termux / Kali / Linux):
 curl -sSL https://raw.githubusercontent.com/TulungagungBlackHat/TBH-Toolkit/main/install.sh | bash
 ```
 
-Or grab a single tool:
+Or grab the one repo directly:
 
 ```bash
-git clone https://github.com/TulungagungBlackHat/TBH-Recon
-cd TBH-Recon
-pip install -r requirements.txt
-python3 main.py --help
+git clone --depth 1 https://github.com/TulungagungBlackHat/TBH-Toolkit
+python3 TBH-Toolkit/tbh        # numbered menu
+python3 TBH-Toolkit/tbh ui     # curses UI
 ```
 
-Prefer a plain CLI with no JSON output? Use [`TBH-CLI`](https://github.com/TulungagungBlackHat/TBH-CLI). Want everything in one scanner? Use [`TBH-AllScan`](https://github.com/TulungagungBlackHat/TBH-AllScan) (`python3 allscan.py --help`).
+Every subcommand also works headless (`python3 tbh recon -u https://example.com --ssl`),
+and `python3 tbh config set proxy http://127.0.0.1:8080` makes all of them share your proxy.
 
 ---
 
 ## Toolset
 
-### Recon & Discovery
-| Tool | What it does |
-|------|--------------|
-| [**TBH-Recon**](https://github.com/TulungagungBlackHat/TBH-Recon) | Web recon: headers, ports, subdomains in one pass |
-| [**TBH-SubFinder**](https://github.com/TulungagungBlackHat/TBH-SubFinder) | Subdomain enumeration (25+ wordlist entries, JSON output) |
-| [**TBH-DirFinder**](https://github.com/TulungagungBlackHat/TBH-DirFinder) | Directory discovery, flags leaked `.git` / `.env` files |
-| [**TBH-ParamFinder**](https://github.com/TulungagungBlackHat/TBH-ParamFinder) | Hidden parameter discovery (IDOR / XSS hunting) |
-| [**TBH-JSLeak**](https://github.com/TulungagungBlackHat/TBH-JSLeak) | Secrets hunting in JavaScript: API keys, tokens |
+Everything lives in **[TBH-Toolkit](https://github.com/TulungagungBlackHat/TBH-Toolkit)**
+now — one clone, one `tbh` command, numbered menu + curses UI.
 
-### Web Vulnerability Detectors (safe probes)
-| Tool | What it does |
-|------|--------------|
-| [**TBH-XSS**](https://github.com/TulungagungBlackHat/TBH-XSS) | Reflected XSS detector |
-| [**TBH-SQLi**](https://github.com/TulungagungBlackHat/TBH-SQLi) | SQL injection detector (safe payloads) |
-| [**TBH-LFI**](https://github.com/TulungagungBlackHat/TBH-LFI) | Local file inclusion detector |
-| [**TBH-SSRF**](https://github.com/TulungagungBlackHat/TBH-SSRF) | SSRF misconfiguration detector |
-| [**TBH-SSTI**](https://github.com/TulungagungBlackHat/TBH-SSTI) | Server-side template injection detector |
-| [**TBH-OpenRedirect**](https://github.com/TulungagungBlackHat/TBH-OpenRedirect) | Open redirect detector |
-| [**TBH-IDOR**](https://github.com/TulungagungBlackHat/TBH-IDOR) | IDOR detector |
-| [**TBH-CORS**](https://github.com/TulungagungBlackHat/TBH-CORS) | CORS misconfiguration detector |
+| Subcommand | What it does |
+|------------|--------------|
+| `tbh scan` | Many tools at once against one target, combined JSON/HTML report |
+| `tbh recon` | Web recon: headers, SSL, ports, subdomains in one pass |
+| `tbh subfinder` | Subdomain enumeration + CNAME takeover check |
+| `tbh dirfinder` | Directory discovery with `--depth` recursion, `.git`/`.env` leaks |
+| `tbh paramfinder` | Hidden parameter discovery (active + passive) |
+| `tbh jsleak` | Secrets hunting in JavaScript |
+| `tbh xss` | Reflected XSS (multi-payload, blind callback) |
+| `tbh sqli` | Error-based SQL injection |
+| `tbh lfi` | Path traversal / LFI |
+| `tbh ssrf` | SSRF (URL params, OOB collab) |
+| `tbh ssti` | Template injection (dual-math) |
+| `tbh redirect` | Open redirect |
+| `tbh idor` | IDOR probe |
+| `tbh cors` | CORS misconfiguration |
+| `tbh portscan` | Port scan: top-100, banners, CVE hints |
+| `tbh phish` | Phishing URL heuristics |
+| `tbh passstrength` | Password strength + generator |
+| `tbh utils` | base64 / url / hash / jwt / qr utilities |
+| `tbh web` | 34-module web check suite + HTML report (old TBH-CLI) |
+| `tbh ui` · `config` · `findings` | curses UI, shared proxy/cookie store, saved findings |
 
-### Bug Bounty Workflow
-| Tool | What it does |
-|------|--------------|
-| [**TBH-AllScan**](https://github.com/TulungagungBlackHat/TBH-AllScan) | All-in-one scanner (10 modules, JSON + HTML reports) |
-| [**TBH-BugBounty**](https://github.com/TulungagungBlackHat/TBH-BugBounty) | Hunter toolkit: headers, SSL, ports, subdomains — JSON for HackerOne |
-| [**TBH-CLI**](https://github.com/TulungagungBlackHat/TBH-CLI) | Lightweight pure-CLI edition for Termux |
-| [**TBH-Toolkit**](https://github.com/TulungagungBlackHat/TBH-Toolkit) | One-click installer for the whole toolset (Bash) |
-
-### Network & Defensive
-| Tool | What it does |
-|------|--------------|
-| [**TBH-PortScanner**](https://github.com/TulungagungBlackHat/TBH-PortScanner) | 100-thread port scanner with banner grabbing + CVE hints |
-| [**TBH-PhishDetector**](https://github.com/TulungagungBlackHat/TBH-PhishDetector) | Phishing URL detector (9 heuristics) |
-| [**TBH-PassStrength**](https://github.com/TulungagungBlackHat/TBH-PassStrength) | Password strength checker (defensive) |
-| [**TBH-Utils**](https://github.com/TulungagungBlackHat/TBH-Utils) | Everyday utilities: QR, Base64, hashes, URLs |
+The old per-tool repositories (TBH-Recon, TBH-XSS, ...) are archived —
+each has a banner pointing to the monorepo.
 
 ### Learning & Community
 | Project | What it is |
@@ -107,15 +99,15 @@ Safe replacements for anything above live in [TBH-Toolkit](https://github.com/Tu
 ## Standards
 
 - **License:** MIT across the toolset
-- **CI:** smoke tests (`py_compile` + `--help`) on every ACTIVE repo
-- **Docs:** `SECURITY.md` + `CONTRIBUTING.md` + `CHANGELOG.md` in every ACTIVE repo
+- **CI:** smoke tests on [TBH-Toolkit](https://github.com/TulungagungBlackHat/TBH-Toolkit) (compile + every subcommand `--help`)
+- **Docs:** `SECURITY.md` + `CONTRIBUTING.md` + `CHANGELOG.md` in the toolkit
 - **Dependencies:** `requests` + standard library only — runs on a stock Termux install
 - **TBH v3 CLI:** shared flags (`--proxy`, `--cookie`, `-H`, `--timeout`, `--json`, `--version`, `--no-color`) and pipeline exit codes (`0` clean / `1` finding / `2` error) across tools; detectors baseline the request first to cut false positives
 - **Targets:** `127.0.0.1`, RFC1918 lab networks, `example.*` domains, or hosts with explicit written permission
 
-Found a bug in one of our tools? Open a [security advisory](https://github.com/TulungagungBlackHat/TBH-Recon/security/advisories/new) — not a public issue.
+Found a bug in one of our tools? Open a [security advisory](https://github.com/TulungagungBlackHat/TBH-Toolkit/security/advisories/new) — not a public issue.
 
-Contributions welcome: fork, branch, test, PR. See [CONTRIBUTING.md](https://github.com/TulungagungBlackHat/TBH-Recon/blob/main/CONTRIBUTING.md).
+Contributions welcome: fork, branch, test, PR. See [CONTRIBUTING.md](https://github.com/TulungagungBlackHat/TBH-Toolkit/blob/main/CONTRIBUTING.md).
 
 ---
 
